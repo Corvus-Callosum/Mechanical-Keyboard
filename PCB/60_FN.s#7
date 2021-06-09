@@ -10158,8 +10158,8 @@
 <instance part="L_ALT" gate="G$1" x="73.66" y="12.7" smashed="yes">
 <attribute name="NAME" x="66.85" y="18.018" size="1" layer="95"/>
 </instance>
-<instance part="SPACEBAR" gate="G$1" x="165.1" y="12.7" smashed="yes">
-<attribute name="NAME" x="158.29" y="18.018" size="1" layer="95"/>
+<instance part="SPACEBAR" gate="G$1" x="104.14" y="12.7" smashed="yes">
+<attribute name="NAME" x="97.33" y="18.018" size="1" layer="95"/>
 </instance>
 <instance part="R_ALT" gate="G$1" x="287.02" y="12.7" smashed="yes">
 <attribute name="NAME" x="280.21" y="18.018" size="1" layer="95"/>
@@ -10177,28 +10177,6 @@
 <busses>
 </busses>
 <nets>
-<net name="COL0" class="0">
-<segment>
-<pinref part="ESC" gate="G$1" pin="P0"/>
-<pinref part="L_CTRL" gate="G$1" pin="P0"/>
-<wire x1="2.54" y1="167.64" x2="2.54" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="TILDE" gate="G$1" pin="P0"/>
-<wire x1="2.54" y1="137.16" x2="2.54" y2="106.68" width="0.1524" layer="91"/>
-<junction x="2.54" y="137.16"/>
-<pinref part="TAB" gate="G$1" pin="P0"/>
-<wire x1="2.54" y1="106.68" x2="2.54" y2="76.2" width="0.1524" layer="91"/>
-<junction x="2.54" y="106.68"/>
-<pinref part="CAPSLOCK" gate="G$1" pin="P0"/>
-<wire x1="2.54" y1="76.2" x2="2.54" y2="45.72" width="0.1524" layer="91"/>
-<junction x="2.54" y="76.2"/>
-<pinref part="L_SHIFT" gate="G$1" pin="P0"/>
-<wire x1="2.54" y1="45.72" x2="2.54" y2="15.24" width="0.1524" layer="91"/>
-<junction x="2.54" y="45.72"/>
-<wire x1="2.54" y1="167.64" x2="-2.54" y2="167.64" width="0.1524" layer="91"/>
-<junction x="2.54" y="167.64"/>
-<label x="-10.16" y="167.64" size="1.778" layer="95"/>
-</segment>
-</net>
 </nets>
 </sheet>
 <sheet>

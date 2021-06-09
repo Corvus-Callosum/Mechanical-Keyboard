@@ -744,24 +744,6 @@
 <text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
 <text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
 </package>
-<package name="MX-6.25U">
-<description>Keyboard switch package!</description>
-<wire x1="-7" y1="7" x2="7" y2="7" width="0.125" layer="47"/>
-<wire x1="7" y1="7" x2="7" y2="-7" width="0.125" layer="47"/>
-<wire x1="7" y1="-7" x2="-7" y2="-7" width="0.125" layer="47"/>
-<wire x1="-7" y1="-7" x2="-7" y2="7" width="0.125" layer="47"/>
-<hole x="0" y="0" drill="4"/>
-<hole x="-5.08" y="0" drill="1.7"/>
-<hole x="5.08" y="0" drill="1.7"/>
-<hole x="-50" y="7" drill="3.05"/>
-<hole x="50" y="7" drill="3.05"/>
-<hole x="-50" y="-8.24" drill="4"/>
-<hole x="50" y="-8.24" drill="4"/>
-<pad name="MX1" x="-3.81" y="2.54" drill="1.3" diameter="2.54"/>
-<pad name="MX2" x="2.54" y="5.08" drill="1.3" diameter="2.54"/>
-<text x="0" y="-2.8" size="1" layer="21" font="vector" ratio="13" align="center">&gt;NAME</text>
-<text x="0" y="-2.8" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center">&gt;NAME</text>
-</package>
 </packages>
 </library>
 <library name="MCU">
@@ -1127,245 +1109,57 @@ design rules under a new name.</description>
 <attribute name="NAME" x="19.05" y="92.45" size="1" layer="21" font="vector" ratio="13" align="center"/>
 <attribute name="NAME" x="19.05" y="92.45" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="1" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="38.1" y="95.25" smashed="yes">
-<attribute name="NAME" x="38.1" y="92.45" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="38.1" y="92.45" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="1" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="19.05" y="-19.05" smashed="yes">
+<attribute name="NAME" x="19.05" y="-21.85" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="19.05" y="-21.85" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="2" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="57.15" y="95.25" smashed="yes">
-<attribute name="NAME" x="57.15" y="92.45" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="57.15" y="92.45" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="2" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="19.05" y="-38.1" smashed="yes">
+<attribute name="NAME" x="19.05" y="-40.9" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="19.05" y="-40.9" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="3" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="76.2" y="95.25" smashed="yes">
-<attribute name="NAME" x="76.2" y="92.45" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="76.2" y="92.45" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="3" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="19.05" y="-57.15" smashed="yes">
+<attribute name="NAME" x="19.05" y="-59.95" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="19.05" y="-59.95" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="4" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="95.25" y="95.25" smashed="yes">
-<attribute name="NAME" x="95.25" y="92.45" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="95.25" y="92.45" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="4" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="19.05" y="-76.2" smashed="yes">
+<attribute name="NAME" x="19.05" y="-79" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="19.05" y="-79" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="5" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="114.3" y="95.25" smashed="yes">
-<attribute name="NAME" x="114.3" y="92.45" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="114.3" y="92.45" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="5" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="38.1" y="-76.2" smashed="yes">
+<attribute name="NAME" x="38.1" y="-79" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="38.1" y="-79" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="6" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="133.35" y="95.25" smashed="yes">
-<attribute name="NAME" x="133.35" y="92.45" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="133.35" y="92.45" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="6" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="19.05" y="-95.25" smashed="yes">
+<attribute name="NAME" x="19.05" y="-98.05" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="19.05" y="-98.05" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="7" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="152.4" y="95.25" smashed="yes">
-<attribute name="NAME" x="152.4" y="92.45" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="152.4" y="92.45" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="7" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="19.05" y="-114.3" smashed="yes">
+<attribute name="NAME" x="19.05" y="-117.1" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="19.05" y="-117.1" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="8" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="171.45" y="95.25" smashed="yes">
-<attribute name="NAME" x="171.45" y="92.45" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="171.45" y="92.45" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="8" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="38.1" y="-114.3" smashed="yes">
+<attribute name="NAME" x="38.1" y="-117.1" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="38.1" y="-117.1" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="9" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="190.5" y="95.25" smashed="yes">
-<attribute name="NAME" x="190.5" y="92.45" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="190.5" y="92.45" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="9" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="19.05" y="-133.35" smashed="yes">
+<attribute name="NAME" x="19.05" y="-136.15" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="19.05" y="-136.15" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="0" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="209.55" y="95.25" smashed="yes">
-<attribute name="NAME" x="209.55" y="92.45" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="209.55" y="92.45" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="0" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="19.05" y="-152.4" smashed="yes">
+<attribute name="NAME" x="19.05" y="-155.2" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="19.05" y="-155.2" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="MINUS" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="228.6" y="95.25" smashed="yes">
-<attribute name="NAME" x="228.6" y="92.45" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="228.6" y="92.45" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="MINUS" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="19.05" y="-171.45" smashed="yes">
+<attribute name="NAME" x="19.05" y="-174.25" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="19.05" y="-174.25" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="EQUALS" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="247.65" y="95.25" smashed="yes">
-<attribute name="NAME" x="247.65" y="92.45" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="247.65" y="92.45" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="EQUALS" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="19.05" y="-190.5" smashed="yes">
+<attribute name="NAME" x="19.05" y="-193.3" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="19.05" y="-193.3" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
-<element name="BACKSPACE" library="Keyboard" package="MX-2U" value="KEYSWITCH-PLAIN-MX-2U" x="276.225" y="95.25" smashed="yes">
-<attribute name="NAME" x="276.225" y="92.45" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="276.225" y="92.45" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="TAB" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="23.8125" y="76.2" smashed="yes">
-<attribute name="NAME" x="23.8125" y="73.4" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="23.8125" y="73.4" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="CAPSLOCK" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="26.19375" y="57.15" smashed="yes">
-<attribute name="NAME" x="26.19375" y="54.35" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="26.19375" y="54.35" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="L_SHIFT" library="Keyboard" package="MX-2U" value="KEYSWITCH-PLAIN-MX-2U" x="30.95625" y="38.1" smashed="yes">
-<attribute name="NAME" x="30.95625" y="35.3" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="30.95625" y="35.3" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="L_CTRL" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="21.43125" y="19.05" smashed="yes">
-<attribute name="NAME" x="21.43125" y="16.25" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="21.43125" y="16.25" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="Q" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="47.625" y="76.2" smashed="yes">
-<attribute name="NAME" x="47.625" y="73.4" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="47.625" y="73.4" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="W" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="66.675" y="76.2" smashed="yes">
-<attribute name="NAME" x="66.675" y="73.4" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="66.675" y="73.4" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="E" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="85.725" y="76.2" smashed="yes">
-<attribute name="NAME" x="85.725" y="73.4" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="85.725" y="73.4" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="R" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="104.775" y="76.2" smashed="yes">
-<attribute name="NAME" x="104.775" y="73.4" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="104.775" y="73.4" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="T" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="123.825" y="76.2" smashed="yes">
-<attribute name="NAME" x="123.825" y="73.4" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="123.825" y="73.4" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="Y" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="142.875" y="76.2" smashed="yes">
-<attribute name="NAME" x="142.875" y="73.4" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="142.875" y="73.4" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="U" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="161.925" y="76.2" smashed="yes">
-<attribute name="NAME" x="161.925" y="73.4" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="161.925" y="73.4" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="I" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="180.975" y="76.2" smashed="yes">
-<attribute name="NAME" x="180.975" y="73.4" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="180.975" y="73.4" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="O" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="200.025" y="76.2" smashed="yes">
-<attribute name="NAME" x="200.025" y="73.4" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="200.025" y="73.4" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="P" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="219.075" y="76.2" smashed="yes">
-<attribute name="NAME" x="219.075" y="73.4" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="219.075" y="73.4" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="[" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="238.125" y="76.2" smashed="yes">
-<attribute name="NAME" x="238.125" y="73.4" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="238.125" y="73.4" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="]" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="257.175" y="76.2" smashed="yes">
-<attribute name="NAME" x="257.175" y="73.4" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="257.175" y="73.4" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="BACKSLASH" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="280.9875" y="76.2" smashed="yes">
-<attribute name="NAME" x="280.9875" y="73.4" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="280.9875" y="73.4" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="A" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="128.5875" y="57.15" smashed="yes">
-<attribute name="NAME" x="128.5875" y="54.35" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="128.5875" y="54.35" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="S" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="204.7875" y="57.15" smashed="yes">
-<attribute name="NAME" x="204.7875" y="54.35" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="204.7875" y="54.35" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="D" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="52.3875" y="57.15" smashed="yes">
-<attribute name="NAME" x="52.3875" y="54.35" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="52.3875" y="54.35" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="F" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="147.6375" y="57.15" smashed="yes">
-<attribute name="NAME" x="147.6375" y="54.35" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="147.6375" y="54.35" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="G" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="166.6875" y="57.15" smashed="yes">
-<attribute name="NAME" x="166.6875" y="54.35" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="166.6875" y="54.35" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="H" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="223.8375" y="57.15" smashed="yes">
-<attribute name="NAME" x="223.8375" y="54.35" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="223.8375" y="54.35" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="J" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="185.7375" y="57.15" smashed="yes">
-<attribute name="NAME" x="185.7375" y="54.35" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="185.7375" y="54.35" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="K" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="71.4375" y="57.15" smashed="yes">
-<attribute name="NAME" x="71.4375" y="54.35" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="71.4375" y="54.35" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="L" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="90.4875" y="57.15" smashed="yes">
-<attribute name="NAME" x="90.4875" y="54.35" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="90.4875" y="54.35" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="SEMICOLON" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="109.5375" y="57.15" smashed="yes">
-<attribute name="NAME" x="109.5375" y="54.35" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="109.5375" y="54.35" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="APOSTROPHE" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="242.8875" y="57.15" smashed="yes">
-<attribute name="NAME" x="242.8875" y="54.35" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="242.8875" y="54.35" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="ENTER" library="Keyboard" package="MX-2U" value="KEYSWITCH-PLAIN-MX-2U" x="273.84375" y="57.15" smashed="yes">
-<attribute name="NAME" x="273.84375" y="54.35" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="273.84375" y="54.35" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="Z" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="61.9125" y="38.1" smashed="yes">
-<attribute name="NAME" x="61.9125" y="35.3" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="61.9125" y="35.3" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="X" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="80.9625" y="38.1" smashed="yes">
-<attribute name="NAME" x="80.9625" y="35.3" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="80.9625" y="35.3" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="C" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="100.0125" y="38.1" smashed="yes">
-<attribute name="NAME" x="100.0125" y="35.3" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="100.0125" y="35.3" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="V" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="119.0625" y="38.1" smashed="yes">
-<attribute name="NAME" x="119.0625" y="35.3" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="119.0625" y="35.3" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="B" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="138.1125" y="38.1" smashed="yes">
-<attribute name="NAME" x="138.1125" y="35.3" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="138.1125" y="35.3" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="N" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="157.1625" y="38.1" smashed="yes">
-<attribute name="NAME" x="157.1625" y="35.3" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="157.1625" y="35.3" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="M" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="176.2125" y="38.1" smashed="yes">
-<attribute name="NAME" x="176.2125" y="35.3" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="176.2125" y="35.3" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="COMMA" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="195.2625" y="38.1" smashed="yes">
-<attribute name="NAME" x="195.2625" y="35.3" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="195.2625" y="35.3" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="PERIOD" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="214.3125" y="38.1" smashed="yes">
-<attribute name="NAME" x="214.3125" y="35.3" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="214.3125" y="35.3" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="R_SHIFT" library="Keyboard" package="MX-2U" value="KEYSWITCH-PLAIN-MX-2U" x="269.08125" y="38.1" smashed="yes">
-<attribute name="NAME" x="269.08125" y="35.3" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="269.08125" y="35.3" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="FORWARDSLASH" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="233.3625" y="38.1" smashed="yes">
-<attribute name="NAME" x="233.3625" y="35.3" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="233.3625" y="35.3" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="L_WINDOWS" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="69.05625" y="19.05" smashed="yes">
-<attribute name="NAME" x="69.05625" y="16.25" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="69.05625" y="16.25" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="L_ALT" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="45.24375" y="19.05" smashed="yes">
-<attribute name="NAME" x="45.24375" y="16.25" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="45.24375" y="16.25" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="SPACEBAR" library="Keyboard" package="MX-6.25U" value="KEYSWITCH-PLAIN-MX-6.25U" x="140.49375" y="19.05" smashed="yes">
-<attribute name="NAME" x="140.49375" y="16.25" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="140.49375" y="16.25" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="R_ALT" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="211.93125" y="19.05" smashed="yes">
-<attribute name="NAME" x="211.93125" y="16.25" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="211.93125" y="16.25" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="R_WINDOWS" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="235.74375" y="19.05" smashed="yes">
-<attribute name="NAME" x="235.74375" y="16.25" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="235.74375" y="16.25" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="FN" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="259.55625" y="19.05" smashed="yes">
-<attribute name="NAME" x="259.55625" y="16.25" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="259.55625" y="16.25" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
-</element>
-<element name="R_CTRL" library="Keyboard" package="MX-1U" value="KEYSWITCH-PLAIN-MX-1U" x="283.36875" y="19.05" smashed="yes">
-<attribute name="NAME" x="283.36875" y="16.25" size="1" layer="21" font="vector" ratio="13" align="center"/>
-<attribute name="NAME" x="283.36875" y="16.25" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
+<element name="BACKSPACE" library="Keyboard" package="MX-2U" value="KEYSWITCH-PLAIN-MX-2U" x="19.05" y="-209.55" smashed="yes">
+<attribute name="NAME" x="19.05" y="-212.35" size="1" layer="21" font="vector" ratio="13" align="center"/>
+<attribute name="NAME" x="19.05" y="-212.35" size="1" layer="22" font="vector" ratio="13" rot="MR0" align="center"/>
 </element>
 </elements>
 <signals>

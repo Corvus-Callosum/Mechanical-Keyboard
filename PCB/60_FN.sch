@@ -9870,7 +9870,6 @@
 </classes>
 <parts>
 <part name="ESC" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-1U"/>
-<part name="U1" library="MCU" deviceset="STM32L476V_T___" device=""/>
 <part name="FN1" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-1U"/>
 <part name="FN2" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-1U"/>
 <part name="FN3" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-1U"/>
@@ -9944,6 +9943,7 @@
 <part name="R_WINDOWS" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-1U"/>
 <part name="FN" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-1U"/>
 <part name="R_CTRL" library="Keyboard" deviceset="KEYSWITCH-PLAIN" device="-MX-1U"/>
+<part name="U2" library="MCU" deviceset="STM32L476V_T___" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10183,9 +10183,9 @@
 <plain>
 </plain>
 <instances>
-<instance part="U1" gate="G$1" x="81.28" y="104.14" smashed="yes">
-<attribute name="NAME" x="10.16" y="228.6" size="1.778" layer="95" ratio="12"/>
-<attribute name="VALUE" x="10.16" y="5.08" size="1.778" layer="96" font="vector" ratio="12"/>
+<instance part="U2" gate="G$1" x="86.36" y="109.22" smashed="yes">
+<attribute name="NAME" x="15.24" y="233.68" size="1.778" layer="95" ratio="12"/>
+<attribute name="VALUE" x="15.24" y="10.16" size="1.778" layer="96" font="vector" ratio="12"/>
 </instance>
 </instances>
 <busses>
